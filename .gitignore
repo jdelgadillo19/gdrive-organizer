@@ -10,4 +10,5 @@ htmlcov/
 dist/
 *.egg-info/
 .DS_Store
+libby-analysis/
 \##-file-manifest.docx

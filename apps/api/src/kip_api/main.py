@@ -4,7 +4,7 @@ from collections.abc import AsyncIterator
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from kip_api.routes import auth, documents, health, search, sync
+from kip_api.routes import auth, documents, health, organization, search, sync
 from kip_core.config import get_settings
 from kip_core.logging import configure_logging, get_logger
 
@@ -43,6 +43,7 @@ def create_app() -> FastAPI:
     app.include_router(sync.router, prefix=prefix)
     app.include_router(search.router, prefix=prefix)
     app.include_router(documents.router, prefix=prefix)
+    app.include_router(organization.router, prefix=prefix)
     return app
 
 
