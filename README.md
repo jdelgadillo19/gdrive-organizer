@@ -112,6 +112,8 @@ See [.env.example](.env.example).
 
 ## Development
 
+**Session handoff:** current state, known issues, next steps, and a copy-paste startup prompt live in [`docs/PROJECT-STATUS.md`](docs/PROJECT-STATUS.md).
+
 ```bash
 ruff check packages apps tests
 pytest
