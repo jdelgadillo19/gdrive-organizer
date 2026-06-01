@@ -63,7 +63,7 @@ Libby pivoted from **organization-first** (May 2026 dev-state) to **retrieval + 
 | Source | Path / notes |
 |--------|----------------|
 | ~~Personal Drive export~~ | Superseded for pilot |
-| **Team development database** | `.zip` on Desktop: `/Users/jessedelgadillo/Desktop/Team-development.....` (exact filename per machine) |
+| **Team development database** | `.zip` on Desktop: `/Users/SBBWD/Desktop/Team-development.....` (exact filename per machine) |
 | Legacy reference | Personal Drive export at `~/Desktop/drive-download…` — no longer primary pilot |
 
 ### Project boundaries (John Q3)

@@ -48,7 +48,7 @@ def test_assign_topic_onboarding_path() -> None:
 
 
 def test_run_canonization_on_team_development_corpus() -> None:
-    desktop = Path("/Users/jessedelgadillo/Desktop")
+    desktop = Path("/Users/SBBWD/Desktop")
     roots = list(desktop.glob("Team Development Resources-20260522T142219Z-3-001"))
     if not roots:
         pytest.skip("Team Development corpus not present on Desktop")
